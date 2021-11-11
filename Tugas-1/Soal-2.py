@@ -8,11 +8,10 @@ Soal No.2
 
 phi = 22/7
 
-r1 = 7
-r2 = 10
+r = float(input("Masukan nilai jari-jari: "))
 
-surface_area1 = phi*r1**2
-surface_area2 = phi*r2**2
+surface_area = phi*r**2
+
 
 a = "Luas lingkaran dengan jari-jari {} adalah".format(r1)
 b = "{} cm\u00b2.".format(surface_area1)
